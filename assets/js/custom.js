@@ -5,5 +5,5 @@ $(function(){
 	});
 
 	$('.site').fitVids();
-	$('a[href^="http://"]').not('a[href*=startics]').attr('target','_blank');
+	$('a[href^="http"]').not('a[href*=startics]').attr('target','_blank');
 });
