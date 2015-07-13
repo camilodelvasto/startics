@@ -1,4 +1,11 @@
 /**
+ * SCSS color scheme for the billy theme
+ *
+ * @package Ghost
+ * @subpackage Plattan
+ * @since Plattan 1.0
+ */
+/**
  * SCSS template for the sites settings
  *
  * @package Ghost
@@ -655,7 +662,7 @@ body {
   color: #111111; }
 
 a {
-  color: #ef4f47;
+  color: #f3615f;
   text-decoration: none; }
 
 h1 a {
@@ -777,8 +784,8 @@ h4, h5, h6 {
   line-height: 3em;
   text-align: center;
   border-radius: 100%;
-  background: #90e0d1;
-  box-shadow: inset 0 0 0 0.25em #75d9c6;
+  background: #6a7684;
+  box-shadow: inset 0 0 0 0.25em #455466;
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -812,8 +819,8 @@ h4, h5, h6 {
   line-height: 1em;
   text-align: center;
   border-radius: 100%;
-  background: #90e0d1;
-  box-shadow: inset 0 0 0 0.25em #75d9c6; }
+  background: #6a7684;
+  box-shadow: inset 0 0 0 0.25em #455466; }
   .cp-color.active {
     -webkit-animation: fadeText 0.75s ease-out;
     -moz-animation: fadeText 0.75s ease-out;
@@ -828,7 +835,7 @@ h4, h5, h6 {
   float: left;
   margin-right: 0%;
   width: 100%;
-  background: #ef4f47;
+  background: #f3615f;
   position: relative;
   z-index: 1;
   -webkit-transform: translatez(0);
@@ -878,7 +885,7 @@ h4, h5, h6 {
   -webkit-transition: background 0.2s ease-in-out;
   -moz-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
-  background: #75d9c6;
+  background: #455466;
   height: auto; }
 
 .header-content {
@@ -976,7 +983,7 @@ h4, h5, h6 {
     font-variant: normal;
     font-weight: normal;
     font-family: 'northemes-icons';
-    background: #90e0d1;
+    background: #6a7684;
     display: block;
     width: 2.2em;
     height: 2.2em;
@@ -988,7 +995,7 @@ h4, h5, h6 {
       .social-icons a {
         font-size: 1.8em; } }
   .social-icons a:hover {
-    background: #9ee4d7;
+    background: #7c8793;
     line-height: 2.2em; }
 
 .expander {
@@ -1007,7 +1014,7 @@ h4, h5, h6 {
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #facac7;
+  color: #fbcfcf;
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
@@ -1127,7 +1134,7 @@ ul.main-menu {
     -webkit-transition: color 0.2s ease-in-out;
     -moz-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    color: #facac7;
+    color: #fbcfcf;
     white-space: nowrap;
     display: block; }
     @media screen and (min-width: 768px) {
@@ -1142,7 +1149,7 @@ ul.main-menu.expanded {
   height: auto;
   opacity: 1;
   position: static;
-  background: #ef4f47;
+  background: #f3615f;
   padding: 0 1em 1em 1em; }
   ul.main-menu.expanded .menu-item {
     -webkit-animation-delay: 0s;
@@ -1289,12 +1296,12 @@ article.post .read-more {
   -moz-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
   margin-top: 1em;
-  background: #ef4f47;
+  background: #f3615f;
   padding: 0.65em 1.25em;
   color: white;
   border-radius: 0.25em; }
   article.post .read-more:hover {
-    background: #d7473f; }
+    background: #da5755; }
 
 article.post .post-meta, .author .author-meta {
   font-style: italic;
@@ -1333,7 +1340,7 @@ article.page .post-meta {
   text-decoration: none; }
 
 .edit-link a {
-  color: #ef4f47;
+  color: #f3615f;
   font-family: 'Open Sans Condensed', sans-serif;
   display: block;
   margin: -1em 0 1em; }
@@ -1367,7 +1374,7 @@ article.page .post-meta {
     -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out; }
     .page-numbers a:hover {
-      background: #90e0d1; }
+      background: #6a7684; }
 
 .social {
   *zoom: 1; }
@@ -1379,7 +1386,7 @@ article.page .post-meta {
 
 .social a {
   *zoom: 1;
-  background: #edfaf7;
+  background: #90a1b4;
   display: block;
   float: left;
   margin-right: 10px;
@@ -1402,7 +1409,7 @@ article.page .post-meta {
   font-variant: normal;
   font-weight: normal;
   font-family: 'northemes-icons';
-  background: #90e0d1;
+  background: #6a7684;
   display: block;
   width: 2.2em;
   height: 2.2em;
@@ -1443,19 +1450,19 @@ article.page .post-meta {
     content: 'k';
     background-color: #00acee; }
 .home-template .tag-format-link, .archive-template .tag-format-link {
-  background-color: #fdedec; }
+  background-color: #fdefef; }
   .home-template .tag-format-link:before, .archive-template .tag-format-link:before {
     content: 'h';
-    background-color: #ef4f47; }
+    background-color: #f3615f; }
 .home-template .tag-format-quote, .archive-template .tag-format-quote {
-  background-color: #f1fbf9; }
+  background-color: #ecedef; }
   .home-template .tag-format-quote:before, .archive-template .tag-format-quote:before {
     content: 'a';
-    background-color: #75d9c6; }
+    background-color: #455466; }
   .home-template .tag-format-quote .quote-title, .archive-template .tag-format-quote .quote-title {
     display: inline; }
 .home-template .tag-format-link .post-meta, .archive-template .tag-format-link .post-meta {
-  border-color: #fce4e3; }
+  border-color: #fde7e7; }
   .home-template .tag-format-link .post-meta .post-tags, .archive-template .tag-format-link .post-meta .post-tags {
     display: none; }
 
