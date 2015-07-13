@@ -5,7 +5,5 @@ $(function(){
 	});
 
 	$('.site').fitVids();
-	$('a[href^=http]:not([href^=http://www.startics.com],[href^=http://vc.startics.com])')
-              .add('a[href^=www]:not([href^=vc.startics.com])')
-              .attr('target','_blank');
+	$('a[href^="http://"]').not('a[href*=startics]').attr('target','_blank');
 });
