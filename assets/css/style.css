@@ -1434,36 +1434,36 @@ article.page .post-meta {
  */
 .home-template .quote-title, .archive-template .quote-title {
   display: none; }
-.home-template .tag-format-tweet h2, .home-template .tag-format-quote h2, .archive-template .tag-format-tweet h2, .archive-template .tag-format-quote h2 {
+.home-template .tag-tweet h2, .home-template .tag-quote h2, .archive-template .tag-tweet h2, .archive-template .tag-quote h2 {
   display: none; }
-.home-template .tag-format-tweet .post-content, .home-template .tag-format-quote .post-content, .archive-template .tag-format-tweet .post-content, .archive-template .tag-format-quote .post-content {
+.home-template .tag-tweet .post-content, .home-template .tag-quote .post-content, .archive-template .tag-tweet .post-content, .archive-template .tag-quote .post-content {
   margin-top: 2em;
   font-size: 1.4em;
   font-style: italic; }
-.home-template .tag-format-tweet p, .home-template .tag-format-quote p, .archive-template .tag-format-tweet p, .archive-template .tag-format-quote p {
+.home-template .tag-tweet p, .home-template .tag-quote p, .archive-template .tag-tweet p, .archive-template .tag-quote p {
   margin-bottom: 0; }
-.home-template .tag-format-tweet .post-meta, .home-template .tag-format-tweet .post-continue, .home-template .tag-format-tweet .read-more, .home-template .tag-format-quote .post-meta, .home-template .tag-format-quote .post-continue, .home-template .tag-format-quote .read-more, .archive-template .tag-format-tweet .post-meta, .archive-template .tag-format-tweet .post-continue, .archive-template .tag-format-tweet .read-more, .archive-template .tag-format-quote .post-meta, .archive-template .tag-format-quote .post-continue, .archive-template .tag-format-quote .read-more {
+.home-template .tag-tweet .post-meta, .home-template .tag-tweet .post-continue, .home-template .tag-tweet .read-more, .home-template .tag-quote .post-meta, .home-template .tag-quote .post-continue, .home-template .tag-quote .read-more, .archive-template .tag-tweet .post-meta, .archive-template .tag-tweet .post-continue, .archive-template .tag-tweet .read-more, .archive-template .tag-quote .post-meta, .archive-template .tag-quote .post-continue, .archive-template .tag-quote .read-more {
   display: none; }
-.home-template .tag-format-tweet, .archive-template .tag-format-tweet {
+.home-template .tag-tweet, .archive-template .tag-tweet {
   background-color: #e5f6fd; }
-  .home-template .tag-format-tweet:before, .archive-template .tag-format-tweet:before {
+  .home-template .tag-tweet:before, .archive-template .tag-tweet:before {
     content: 'k';
     background-color: #00acee; }
-.home-template .tag-format-link, .archive-template .tag-format-link {
+.home-template .tag-link, .archive-template .tag-link {
   background-color: #fdefef; }
-  .home-template .tag-format-link:before, .archive-template .tag-format-link:before {
+  .home-template .tag-link:before, .archive-template .tag-link:before {
     content: 'h';
     background-color: #f3615f; }
-.home-template .tag-format-quote, .archive-template .tag-format-quote {
+.home-template .tag-quote, .archive-template .tag-quote {
   background-color: #ecedef; }
-  .home-template .tag-format-quote:before, .archive-template .tag-format-quote:before {
+  .home-template .tag-quote:before, .archive-template .tag-quote:before {
     content: 'a';
     background-color: #455466; }
-  .home-template .tag-format-quote .quote-title, .archive-template .tag-format-quote .quote-title {
+  .home-template .tag-quote .quote-title, .archive-template .tag-quote .quote-title {
     display: inline; }
-.home-template .tag-format-link .post-meta, .archive-template .tag-format-link .post-meta {
+.home-template .tag-link .post-meta, .archive-template .tag-link .post-meta {
   border-color: #fde7e7; }
-  .home-template .tag-format-link .post-meta .post-tags, .archive-template .tag-format-link .post-meta .post-tags {
+  .home-template .tag-link .post-meta .post-tags, .archive-template .tag-link .post-meta .post-tags {
     display: none; }
 
 .site-footer {

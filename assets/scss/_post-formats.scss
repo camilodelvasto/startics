@@ -12,7 +12,7 @@
 		display: none;
 	}
 
-	.tag-format-tweet, .tag-format-quote {
+	.tag-tweet, .tag-quote {
 
 	    h2 {
 	    	display:none;
@@ -36,7 +36,7 @@
 
 	}
 
-	.tag-format-tweet {
+	.tag-tweet {
 	    @include icon('before', false, 'twitter') {
 	    	background-color: $twitter;
 		};
@@ -45,7 +45,7 @@
 
 	}
 
-	.tag-format-link {
+	.tag-link {
 	    @include icon('before', false, 'link') {
 	    	background-color: $color-1;
 	    }
@@ -53,7 +53,7 @@
 
 	}
 
-	.tag-format-quote {
+	.tag-quote {
 	    @include icon('before', false, 'quote') {
 	    	background-color: $color-2;
 	    }
@@ -64,7 +64,7 @@
 	    }
 	}
 
-	.tag-format-link .post-meta {
+	.tag-link .post-meta {
 		border-color: tint( $color-1, 85% );
 
 		.post-tags {
