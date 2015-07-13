@@ -82,54 +82,14 @@ module.exports = function(grunt) {
                     '../assets/css/style.css': '../assets/scss/style.scss'
                 }
             },
-            scheme0: {
-                options: {
-                    style: 'compressed'
-                },
-                files: {
-                    '../assets/css/style-0.css': '../assets/scss/style.scss'
-                }
-            },
-            scheme1: {
-                options: {
-                    style: 'compressed'
-                },
-                files: {
-                    '../assets/css/style-1.css': '../assets/scss/schemes/color-scheme-1.scss'
-                }
-            },
-            scheme2: {
-                options: {
-                    style: 'compressed'
-                },
-                files: {
-                    '../assets/css/style-2.css': '../assets/scss/schemes/color-scheme-2.scss'
-                }
-            },
-            scheme3: {
-                options: {
-                    style: 'compressed'
-                },
-                files: {
-                    '../assets/css/style-3.css': '../assets/scss/schemes/color-scheme-3.scss'
-                }
-            },
             scheme4: {
                 options: {
                     style: 'compressed'
                 },
                 files: {
-                    '../assets/css/style-4.css': '../assets/scss/schemes/color-scheme-4.scss'
+                    '../assets/css/style.css': '../assets/scss/schemes/color-scheme-4.scss'
                 }
             },
-            scheme5: {
-                options: {
-                    style: 'compressed'
-                },
-                files: {
-                    '../assets/css/style-5.css': '../assets/scss/schemes/color-scheme-5.scss'
-                }
-            }
 
         },
 
@@ -138,7 +98,7 @@ module.exports = function(grunt) {
             scss: {
                 files: ['../assets/scss/**/*.scss'],
                 tasks: [
-                    'sass:dev',
+                    'sass:scheme4',
                     'notify:scss'
                 ]
             },
