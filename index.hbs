@@ -2,6 +2,7 @@
 {{> header}}
 
 	<section class="page-content primary" role="main">
+	    <div class="posts-section">
 		{{#foreach posts}}
 
 			<article id="post-{{id}}" class="post {{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
@@ -47,6 +48,7 @@
 			</article>
 
 		{{/foreach}}
+	     </div>
 
 	    {{#if pagination}}
 			<div class="pagination" role="pagination">

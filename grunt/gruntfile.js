@@ -42,6 +42,7 @@ module.exports = function(grunt) {
                         '../assets/js/vendor/modernizr.js',
                         '../assets/js/vendor/jquery.js',
                         '../assets/js/vendor/fitvids.js',
+                        '../assets/js/vendor/infinitescroll.js',
                         '../assets/js/custom.js'
                     ]
                 }
@@ -54,6 +55,7 @@ module.exports = function(grunt) {
                         '../assets/js/vendor/fitvids.js',
                         '../assets/js/vendor/cookie.js',
                         '../assets/js/color-picker.js',
+                        '../assets/js/vendor/infinitescroll.js',
                         '../assets/js/custom.js'
                     ]
                 }
@@ -66,6 +68,7 @@ module.exports = function(grunt) {
                         '../assets/js/vendor/fitvids.js',
                         '../assets/js/vendor/cookie.js',
                         '../assets/js/color-picker.js',
+                        '../assets/js/vendor/infinitescroll.js',
                         '../assets/js/custom.js'
                     ]
                 }
