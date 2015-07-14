@@ -271,10 +271,10 @@ ul.main-menu {
         overflow: hidden;
 
         @include media($medium) {
-            @include animation(slide-in-menu .4s ease-in-out);
+            @include animation(slide-in-menu .25s ease-in-out);
             @include animation-fill-mode(both);
             @include animation-iteration-count(1);
-            @include animation-delay(.4s);
+            @include animation-delay(.25s);
             float: none;
         }
 
@@ -291,7 +291,7 @@ ul.main-menu {
     }
 
     .menu-item a {
-        @include transition(color 0.2s ease-in-out);
+        @include transition(all 0.25s ease-in-out);
         color: tint($color-1, 70%);
         white-space: nowrap;
         display: block;

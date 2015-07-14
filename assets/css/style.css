@@ -1093,18 +1093,18 @@ ul.main-menu {
     overflow: hidden; }
     @media screen and (min-width: 768px) {
       ul.main-menu .menu-item {
-        -webkit-animation: slide-in-menu 0.4s ease-in-out;
-        -moz-animation: slide-in-menu 0.4s ease-in-out;
-        animation: slide-in-menu 0.4s ease-in-out;
+        -webkit-animation: slide-in-menu 0.25s ease-in-out;
+        -moz-animation: slide-in-menu 0.25s ease-in-out;
+        animation: slide-in-menu 0.25s ease-in-out;
         -webkit-animation-fill-mode: both;
         -moz-animation-fill-mode: both;
         animation-fill-mode: both;
         -webkit-animation-iteration-count: 1;
         -moz-animation-iteration-count: 1;
         animation-iteration-count: 1;
-        -webkit-animation-delay: 0.4s;
-        -moz-animation-delay: 0.4s;
-        animation-delay: 0.4s;
+        -webkit-animation-delay: 0.25s;
+        -moz-animation-delay: 0.25s;
+        animation-delay: 0.25s;
         float: none; } }
     ul.main-menu .menu-item:nth-child(1) {
       -webkit-animation-delay: 0.6s;
@@ -1135,9 +1135,9 @@ ul.main-menu {
       -moz-animation-delay: 1.2s;
       animation-delay: 1.2s; }
   ul.main-menu .menu-item a {
-    -webkit-transition: color 0.2s ease-in-out;
-    -moz-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
     color: #fbcfcf;
     white-space: nowrap;
     display: block; }
