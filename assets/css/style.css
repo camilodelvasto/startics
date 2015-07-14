@@ -943,9 +943,9 @@ h4, h5, h6 {
       margin: 0.5em 0 2em; } }
 
 .social-icons {
-  -webkit-animation: flip-in-y 1s ease;
-  -moz-animation: flip-in-y 1s ease;
-  animation: flip-in-y 1s ease;
+  -webkit-animation: flip-in-y 0.6s ease;
+  -moz-animation: flip-in-y 0.6s ease;
+  animation: flip-in-y 0.6s ease;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -958,12 +958,16 @@ h4, h5, h6 {
   -o-backface-visibility: visible !important;
   backface-visibility: visible !important;
   opacity: 0;
-  margin: 0.5em 0 0.3em 0; }
+  margin: 0.5em 0 0.3em 0;
+  display: none; }
   .social-icons:before, .social-icons:after {
     content: " ";
     display: table; }
   .social-icons:after {
     clear: both; }
+  @media screen and (min-width: 480px) {
+    .social-icons {
+      display: block; } }
   @media screen and (min-width: 768px) {
     .social-icons {
       min-width: 5.5em;
