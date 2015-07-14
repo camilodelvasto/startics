@@ -5,5 +5,7 @@ $(function(){
 	});
 
 	$('.site').fitVids();
+
+	//make all external links open on a new window
 	$('a[href^="http"]').not('a[href*=startics]').attr('target','_blank');
 });

@@ -1,5 +1,6 @@
 $().ready(function(){
-  $('.pagination').hide();
+  if($('.posts-section').length != 0){
+    $('.pagination').hide();
     var page = 2;
     var url_blog = window.location;
     $(window).scroll(function() {
@@ -13,4 +14,5 @@ $().ready(function(){
     });
    }
  });
+  }
 });
